@@ -14,6 +14,7 @@ Abrir Sessão
     Maximize Browser Window
     Set Selenium Implicit Wait    5 seconds
 
+
 Fechar Sessão
     Run Keyword If Test Failed    Capture Page Screenshot
     Close Browser
