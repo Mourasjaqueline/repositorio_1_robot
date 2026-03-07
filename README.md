@@ -1,12 +1,12 @@
-# repositorio_1_robot# 🤖 Automação de Testes de Interface com Robot Framework
+# 🤖 Automação de Testes de Interface com Robot Framework
 
 ## 📌 Sobre o Projeto
 
-Este repositório contém a implementação de **testes automatizados de interface (UI)** utilizando **Robot Framework**, desenvolvidos como parte de um desafio técnico de QA.
+Este repositório contém a implementação de testes automatizados de interface (UI) utilizando Robot Framework.
 
-O objetivo deste projeto é validar funcionalidades da aplicação através de **cenários automatizados escritos no formato BDD**, garantindo qualidade e confiabilidade durante o fluxo de uso do sistema.
+O objetivo deste projeto é validar funcionalidades da aplicação através de cenários automatizados escritos no formato BDD, garantindo qualidade e confiabilidade durante o fluxo de uso do sistema.
 
-Além da automação dos testes, o projeto também conta com **integração contínua utilizando GitHub Actions**, permitindo que os testes sejam executados automaticamente a cada atualização no repositório.
+Além da automação dos testes, o projeto também conta com integração contínua utilizando GitHub Actions, permitindo que os testes sejam executados automaticamente a cada atualização no repositório.
 
 ---
 
@@ -33,6 +33,7 @@ repositorio_1_robot
 │
 ├── testes                         # Casos de teste automatizados
 │   └── login.robot
+    └── checkout.robot
 │
 ├── resultados                     # Relatórios gerados após execução dos testes
 │
@@ -43,7 +44,7 @@ repositorio_1_robot
 
 ## 🧪 Estratégia de Testes
 
-Os cenários foram desenvolvidos seguindo o **formato BDD (Behavior Driven Development)**, utilizando a estrutura:
+Os cenários foram desenvolvidos seguindo o formato BDD (Behavior Driven Development), utilizando a estrutura:
 
 ```
 Given
@@ -81,7 +82,7 @@ Antes de executar os testes é necessário possuir instalado:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/repositorio_1_robot.git
+git clone https://github.com/Mourasjaqueline/repositorio_1_robot.git
 ```
 
 Acesse a pasta do projeto:
@@ -134,7 +135,7 @@ resultados/
 
 ## 🔄 Integração Contínua (CI)
 
-Este projeto possui uma **pipeline configurada no GitHub Actions**.
+Este projeto possui uma pipeline configurada no GitHub Actions.
 
 A pipeline executa automaticamente os testes quando ocorre:
 
@@ -157,24 +158,7 @@ Após a execução da pipeline no GitHub Actions, os relatórios de teste são d
 
 ---
 
-## 📈 Benefícios da Automação
-
-A automação implementada neste projeto permite:
-
-* Execução rápida e repetível dos testes
-* Detecção antecipada de falhas
-* Integração com pipeline de CI/CD
-* Geração automática de evidências de teste
-* Maior confiabilidade nas entregas
-
----
-
 ## 👩‍💻 Autora
 
 **Jaqueline Moura**
 
----
-
-## 📬 Contato
-
-Caso tenha dúvidas ou sugestões sobre este projeto, fique à vontade para entrar em contato.
