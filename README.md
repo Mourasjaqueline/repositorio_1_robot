@@ -135,20 +135,15 @@ resultados/
 
 ## 🔄 Integração Contínua (CI)
 
-Este projeto possui uma pipeline configurada no GitHub Actions.
+O projeto está integrado ao GitHub Actions.
 
-A pipeline executa automaticamente os testes quando ocorre:
+A cada push ou pull request na branch principal, a pipeline executa automaticamente:
 
-* Push na branch principal
-* Pull Request para a branch principal
+Instalação das dependências
 
-Etapas da pipeline:
+Execução dos testes automatizados
 
-1. Checkout do código
-2. Configuração do ambiente Python
-3. Instalação das dependências
-4. Execução dos testes Robot Framework
-5. Geração e publicação dos artefatos (relatórios)
+Geração de evidências da execução
 
 ---
 
