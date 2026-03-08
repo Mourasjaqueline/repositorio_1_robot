@@ -8,6 +8,8 @@ O objetivo da automação é validar funcionalidades críticas da aplicação at
 
 O projeto também conta com **integração contínua utilizando GitHub Actions**, permitindo que os testes sejam executados automaticamente a cada atualização no repositório.
 
+# URL: https://www.saucedemo.com/
+
 ---
 
 ## 🧪 Estratégia de Testes
