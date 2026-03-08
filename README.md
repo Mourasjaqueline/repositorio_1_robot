@@ -52,13 +52,28 @@ repositorio_1_robot
 │   └── workflows
 │       └── robot-tests.yml
 │
-├── testes
-│   ├── login.robot
-│   └── checkout.robot
+├── tests
+|    └── resources
+|      └── data
+|         └── checkout_data.json
+
+|      ├── hooks.robot
+|      ├── variables.robot
+|      └──pages
+|         ├── cartpage.robot
+|         ├── checkoutpage.robot
+|         ├── loginpage.robot
+|         └── productspage.robot
+|── specs
+│         ├── login.robot
+│         └── checkout.robot
 │
-├── resultados
-│
+├── results
+│    └── Relatório e evidências geradas após execução dos testes
 └── README.md
+
+Arquitetura baseada em Page Object Model (POM) para garantir reutilização de código e melhor manutenção dos testes automatizados.
+
 ```
 
 ---
