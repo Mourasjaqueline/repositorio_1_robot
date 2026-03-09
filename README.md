@@ -46,30 +46,30 @@ Essa abordagem garante que os principais fluxos da aplicação sejam continuamen
 ## 📂 Estrutura do Projeto
 
 ```
-repositorio_1_robot
-│
+.
 ├── .github
 │   └── workflows
 │       └── robot-tests.yml
 │
 ├── tests
-|    └── resources
-|      └── data
-|         └── checkout_data.json
-
-|      ├── hooks.robot
-|      ├── variables.robot
-|      └──pages
-|         ├── cartpage.robot
-|         ├── checkoutpage.robot
-|         ├── loginpage.robot
-|         └── productspage.robot
-|── specs
-│         ├── login.robot
-│         └── checkout.robot
+│   ├── specs
+│   │   ├── login.robot
+│   │   └── checkout.robot
+│   │
+│   └── resources
+│       ├── data
+│       │   └── checkout_data.json
+│       │
+│       ├── hooks.robot
+│       ├── variables.robot
+│       └── pages
+│           ├── cartpage.robot
+│           ├── checkoutpage.robot
+│           ├── loginpage.robot
+│           └── productspage.robot
 │
 ├── results
-│    └── Relatório e evidências geradas após execução dos testes
+│
 └── README.md
 
 Arquitetura baseada em Page Object Model (POM) para garantir reutilização de código e melhor manutenção dos testes automatizados.
@@ -85,28 +85,35 @@ Para executar o projeto é necessário possuir instalado:
 * Python 3.9+
 * Pip
 * Google Chrome
-* ChromeDriver compatível
+* ChromeDriver compatível ( O ChromeDriver deve ser compatível com a versão do Google Chrome instalada no sistema. Ele pode ser baixado em:
+https://chromedriver.chromium.org/downloads )
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
+
 Clone o repositório:
 
 ```bash
-git clone https://github.com/Mourasjaqueline/repositorio_1_robot.git
+git clone https://github.com/Mourasjaqueline/robotframework-ui-tests.git
+cd repositorio_1_robot
 ```
 
 Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
+
+robotframework
+robotframework-seleniumlibrary
+webdriver-manager
 ```
 
 Execute os testes:
 
 ```bash
-robot -d resultados testes/
+robot -d results tests/
 ```
 
 ---
